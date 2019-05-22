@@ -1,3 +1,14 @@
+(define singleton? 
+  (lambda (lst)
+    (if (list? lst)
+      (cond 
+        ((equal? lst ()) #f)
+        ((equal? (cdr lst) ()) #t)
+      )
+      #f
+    )
+  )
+)
 (define my-make-list 
  (lambda (i lst) (
   cond 
