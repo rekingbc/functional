@@ -1,0 +1,1 @@
+This was a project to implement an environment evaluator, an expression evaluator, and an expression simplifier in MIT/GNU Scheme. It's not particularly useful, but it was a neat project for learning how to use Scheme. I no longer have access to the repository I used for development, so everything is packed into one commit dated to the submission time.
